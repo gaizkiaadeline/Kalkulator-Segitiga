@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Matematik Segitiga</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Kalkulator Matematik Segitiga</h1>
+        <h5>Hai Sobat, Selamat datang di Katik :)</h5>
+        <h5>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</h5>
+        
+        <div class="full-width-box">
+            <h1>Luas Segitiga</h1>
+        </div>
+        
+        <h5>Rumus Luas Segitiga yaitu:</h5>
+        <h5>L = 1/2 x a x t</h5>
+        <h5>Dimana:</h5>
+        <h5>L = Luas</h5>
+        <h5>a = Panjang Alas</h5>
+        <h5>t = Tinggi</h5>
+        <h5> </h5>
+
+        <div class="full-width-box">
+            <h1>Keliling Segitiga</h1>
+        </div>
+        
+        <h5>Rumus Keliling Segitiga yaitu:</h5>
+        <h5>K = S1 + S2 + S3</h5>
+        <h5>Dimana:</h5>
+        <h5>K = Keliling</h5>
+        <h5>S1 = Sisi A</h5>
+        <h5>S2 = Sisi B</h5>
+        <h5>S3 = Sisi C</h5>
+        <h5> </h5>
+
+        <h1> Hitung Luas & Keliling Segitiga</h1>
+        <form id="triangle-form" class="align-left">
+            <label for="base">Panjang Alas:</label>
+            <input type="number" id="base" placeholder="Masukkan panjang alas" required>
+            <label for="height">Tinggi:</label>
+            <input type="number" id="height" placeholder="Masukkan tinggi" required>
+            <button type="button" id="calculate-btn">Hitung</button>
+        </form>
+
+        <div id="result">
+            <p>Luas: <span id="area-result"></span></p>
+            <p>Keliling: <span id="perimeter-result"></span></p>
+        </div>
+
+        <div id="reset">
+            <button type="button" id="reset-btn">Reset</button>
+        </div>
+       
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
